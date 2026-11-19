@@ -1,0 +1,21 @@
+{
+  "platform": "wechatgame",
+  "name": "survival-crisis",
+  "outputName": "wechatgame",
+  "debug": false,
+  "startScene": "32fbe41a-617f-469e-b651-ea1a770b8119",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/Battle.scene",
+      "uuid": "32fbe41a-617f-469e-b651-ea1a770b8119"
+    }
+  ],
+  "buildPath": "project://build",
+  "orientation": "landscape",
+  "packages": {
+    "wechatgame": {
+      "appid": "wx316c8e0d7d10297a",
+      "orientation": "landscape"
+    }
+  }
+}

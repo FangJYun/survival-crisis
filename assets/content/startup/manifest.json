@@ -1,0 +1,11 @@
+{
+  "group": "startup",
+  "version": 1,
+  "title": "暮野危机",
+  "required": [
+    "common",
+    "heroes",
+    "monsters",
+    "seasons"
+  ]
+}

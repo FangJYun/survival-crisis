@@ -1,0 +1,23 @@
+{
+  "name": "survival-crisis",
+  "type": "2d",
+  "uuid": "12fa2937-438b-4fdb-80e2-c870a574eda3",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test:wechat-package": "node --test tests/wechat-package.test.mjs",
+    "test": "tsc -p tsconfig.tests.json && node --test .test-output/tests/*.test.js",
+    "benchmark:domain": "tsc -p tsconfig.tests.json && node scripts/benchmark-domain.mjs",
+    "soak:year": "tsc -p tsconfig.tests.json && node scripts/soak-year.mjs",
+    "build:web": "node scripts/cocos-build.mjs web-mobile",
+    "build:wechat": "node scripts/cocos-build.mjs wechatgame",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "@types/node": "22.20.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "33e99b6e-9e18-4474-ad55-58d13014b3fc",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleConfigID": "default",
+    "bundleName": "game-heroes",
+    "priority": 5,
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "Node domain only; no rendering or platform storage",
+  "node": "v26.10.0",
+  "ticks": 1800,
+  "simulationSeconds": 60,
+  "tickP95": 1.1588339999999562,
+  "tickP99": 2.044125000000008,
+  "tickMax": 4.0138749999999845,
+  "enemies": 40,
+  "ended": false
+}

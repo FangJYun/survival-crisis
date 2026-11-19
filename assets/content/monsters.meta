@@ -1,0 +1,16 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "b6cdb264-312a-48ce-b552-c603361f73aa",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleConfigID": "default",
+    "bundleName": "game-monsters",
+    "priority": 5,
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

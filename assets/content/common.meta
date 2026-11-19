@@ -1,0 +1,16 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "f749c660-4ff0-4bd7-b308-643fa7ba4135",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleConfigID": "default",
+    "bundleName": "game-common",
+    "priority": 7,
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

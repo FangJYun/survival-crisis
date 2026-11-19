@@ -1,0 +1,17 @@
+{
+  "group": "common",
+  "version": 1,
+  "atlas": "wilderness-atlas",
+  "columns": 4,
+  "rows": 4,
+  "detailAtlas": "defense-atlas",
+  "buildings": {
+    "tower": 12,
+    "wall": 13,
+    "gate": 31,
+    "stone-wall": 28,
+    "reinforced-wall": 29,
+    "campfire": 15,
+    "cooler": 30
+  }
+}

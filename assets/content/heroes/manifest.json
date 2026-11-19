@@ -1,0 +1,16 @@
+{
+  "group": "heroes",
+  "version": 1,
+  "warden": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "hunter": [
+    4,
+    5,
+    6,
+    7
+  ]
+}

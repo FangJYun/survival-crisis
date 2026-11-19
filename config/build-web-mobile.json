@@ -1,0 +1,15 @@
+{
+  "platform": "web-mobile",
+  "name": "survival-crisis",
+  "outputName": "web-mobile",
+  "debug": true,
+  "startScene": "32fbe41a-617f-469e-b651-ea1a770b8119",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/Battle.scene",
+      "uuid": "32fbe41a-617f-469e-b651-ea1a770b8119"
+    }
+  ],
+  "buildPath": "project://build",
+  "orientation": "landscape"
+}

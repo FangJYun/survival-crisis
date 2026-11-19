@@ -1,0 +1,16 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "e7a36b68-d8dc-4763-bc29-b952cf476fd1",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleConfigID": "default",
+    "bundleName": "game-seasons",
+    "priority": 5,
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

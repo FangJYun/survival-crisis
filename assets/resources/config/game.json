@@ -1,0 +1,1431 @@
+{
+  "version": 1,
+  "world": {
+    "width": 128,
+    "height": 128,
+    "cellSize": 48,
+    "chunkSize": 16,
+    "day": 360,
+    "dusk": 60,
+    "night": 180,
+    "seasonDays": 7,
+    "deathLossRate": 0.2
+  },
+  "combat": {
+    "radius": 18,
+    "health": 100,
+    "stamina": 100,
+    "speed": 185,
+    "attackDamage": 24,
+    "attackRange": 76,
+    "attackArc": 110,
+    "attackWindup": 0.16,
+    "attackActive": 0.12,
+    "attackRecovery": 0.24,
+    "blinkDistance": 150,
+    "blinkCooldown": 3,
+    "blinkProtection": 0.15,
+    "blockDrain": 20,
+    "blockHitCost": 18,
+    "blockDamageRatio": 0.2,
+    "blockArc": 140,
+    "perfectWindow": 0.18,
+    "staminaRegen": 24
+  },
+  "characters": [
+    {
+      "id": "warden",
+      "name": "林地守望者",
+      "talent": "采集与修筑"
+    },
+    {
+      "id": "hunter",
+      "name": "荒野猎手",
+      "talent": "精准反击"
+    }
+  ],
+  "materials": [
+    {
+      "id": "wood",
+      "name": "木材",
+      "source": "伐木、硬木"
+    },
+    {
+      "id": "stone",
+      "name": "石材",
+      "source": "石矿、富矿（有限）"
+    },
+    {
+      "id": "herb",
+      "name": "药材",
+      "source": "野外药草"
+    },
+    {
+      "id": "hide",
+      "name": "兽皮",
+      "source": "击败怪物"
+    },
+    {
+      "id": "food",
+      "name": "食物",
+      "source": "野果采集"
+    },
+    {
+      "id": "ancient-core",
+      "name": "古兽核心",
+      "source": "野外古兽或季末首领；每3次有效精英击杀保底1份"
+    },
+    {
+      "id": "verdant-essence",
+      "name": "繁生精华",
+      "source": "春季变体概率掉落（5次保底）或季末首领必得"
+    },
+    {
+      "id": "ember-heart",
+      "name": "炽热之心",
+      "source": "夏季变体概率掉落（5次保底）或季末首领必得"
+    },
+    {
+      "id": "amber-shell",
+      "name": "琥珀甲壳",
+      "source": "秋季变体概率掉落（5次保底）或季末首领必得"
+    },
+    {
+      "id": "frost-fur",
+      "name": "霜兽绒毛",
+      "source": "冬季变体概率掉落（5次保底）或季末首领必得"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "basic-head",
+      "name": "布帽",
+      "slot": "head",
+      "rarity": "white",
+      "attack": 0,
+      "defense": 2,
+      "tier": 1,
+      "effect": "基础防护，保暖与隔热",
+      "warmth": 4,
+      "cooling": 2.8
+    },
+    {
+      "id": "basic-body",
+      "name": "布衣",
+      "slot": "body",
+      "rarity": "white",
+      "attack": 0,
+      "defense": 2,
+      "tier": 1,
+      "effect": "基础防护，保暖与隔热",
+      "warmth": 10,
+      "cooling": 7.0
+    },
+    {
+      "id": "basic-feet",
+      "name": "布鞋",
+      "slot": "feet",
+      "rarity": "white",
+      "attack": 0,
+      "defense": 2,
+      "tier": 1,
+      "effect": "基础防护，保暖与隔热",
+      "warmth": 4,
+      "cooling": 2.8
+    },
+    {
+      "id": "basic-hands",
+      "name": "布手套",
+      "slot": "hands",
+      "rarity": "white",
+      "attack": 0,
+      "defense": 2,
+      "tier": 1,
+      "effect": "基础防护，保暖与隔热",
+      "warmth": 3,
+      "cooling": 2.0999999999999996
+    },
+    {
+      "id": "basic-weapon",
+      "name": "木剑",
+      "slot": "weapon",
+      "rarity": "white",
+      "attack": 8,
+      "defense": 0,
+      "tier": 1,
+      "effect": "基础防护"
+    },
+    {
+      "id": "blue-head",
+      "name": "精制布帽",
+      "slot": "head",
+      "rarity": "blue",
+      "attack": 0,
+      "defense": 6,
+      "tier": 2,
+      "effect": "强化攻防，保暖与隔热",
+      "warmth": 8,
+      "cooling": 5.6
+    },
+    {
+      "id": "blue-body",
+      "name": "精制布衣",
+      "slot": "body",
+      "rarity": "blue",
+      "attack": 0,
+      "defense": 6,
+      "tier": 2,
+      "effect": "强化攻防，保暖与隔热",
+      "warmth": 20,
+      "cooling": 14.0
+    },
+    {
+      "id": "blue-feet",
+      "name": "精制布鞋",
+      "slot": "feet",
+      "rarity": "blue",
+      "attack": 0,
+      "defense": 6,
+      "tier": 2,
+      "effect": "强化攻防，保暖与隔热",
+      "warmth": 8,
+      "cooling": 5.6
+    },
+    {
+      "id": "blue-hands",
+      "name": "精制布手套",
+      "slot": "hands",
+      "rarity": "blue",
+      "attack": 0,
+      "defense": 6,
+      "tier": 2,
+      "effect": "强化攻防，保暖与隔热",
+      "warmth": 6,
+      "cooling": 4.199999999999999
+    },
+    {
+      "id": "blue-weapon",
+      "name": "精制木剑",
+      "slot": "weapon",
+      "rarity": "blue",
+      "attack": 16,
+      "defense": 0,
+      "tier": 2,
+      "effect": "强化攻防"
+    },
+    {
+      "id": "purple-head",
+      "name": "古兽布帽",
+      "slot": "head",
+      "rarity": "purple",
+      "attack": 0,
+      "defense": 14,
+      "tier": 3,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 12,
+      "cooling": 8.399999999999999
+    },
+    {
+      "id": "purple-body",
+      "name": "古兽布衣",
+      "slot": "body",
+      "rarity": "purple",
+      "attack": 0,
+      "defense": 14,
+      "tier": 3,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 30,
+      "cooling": 21.0
+    },
+    {
+      "id": "purple-feet",
+      "name": "古兽布鞋",
+      "slot": "feet",
+      "rarity": "purple",
+      "attack": 0,
+      "defense": 14,
+      "tier": 3,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 12,
+      "cooling": 8.399999999999999
+    },
+    {
+      "id": "purple-hands",
+      "name": "古兽布手套",
+      "slot": "hands",
+      "rarity": "purple",
+      "attack": 0,
+      "defense": 14,
+      "tier": 3,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 9,
+      "cooling": 6.3
+    },
+    {
+      "id": "purple-weapon",
+      "name": "古兽木剑",
+      "slot": "weapon",
+      "rarity": "purple",
+      "attack": 36,
+      "defense": 0,
+      "tier": 3,
+      "effect": "稀有核心锻造"
+    },
+    {
+      "id": "gold-head",
+      "name": "曙光布帽",
+      "slot": "head",
+      "rarity": "gold",
+      "attack": 0,
+      "defense": 24,
+      "tier": 4,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 16,
+      "cooling": 11.2
+    },
+    {
+      "id": "gold-body",
+      "name": "曙光布衣",
+      "slot": "body",
+      "rarity": "gold",
+      "attack": 0,
+      "defense": 24,
+      "tier": 4,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 40,
+      "cooling": 28.0
+    },
+    {
+      "id": "gold-feet",
+      "name": "曙光布鞋",
+      "slot": "feet",
+      "rarity": "gold",
+      "attack": 0,
+      "defense": 24,
+      "tier": 4,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 16,
+      "cooling": 11.2
+    },
+    {
+      "id": "gold-hands",
+      "name": "曙光布手套",
+      "slot": "hands",
+      "rarity": "gold",
+      "attack": 0,
+      "defense": 24,
+      "tier": 4,
+      "effect": "稀有核心锻造，保暖与隔热",
+      "warmth": 12,
+      "cooling": 8.399999999999999
+    },
+    {
+      "id": "gold-weapon",
+      "name": "曙光木剑",
+      "slot": "weapon",
+      "rarity": "gold",
+      "attack": 64,
+      "defense": 0,
+      "tier": 4,
+      "effect": "稀有核心锻造"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "craft-head",
+      "output": "basic-head",
+      "materials": [
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-body",
+      "output": "basic-body",
+      "materials": [
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-feet",
+      "output": "basic-feet",
+      "materials": [
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-hands",
+      "output": "basic-hands",
+      "materials": [
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-weapon",
+      "output": "basic-weapon",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-blue-head",
+      "output": "blue-head",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 6
+        },
+        {
+          "id": "stone",
+          "count": 4
+        },
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-blue-body",
+      "output": "blue-body",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 6
+        },
+        {
+          "id": "stone",
+          "count": 4
+        },
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-blue-feet",
+      "output": "blue-feet",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 6
+        },
+        {
+          "id": "stone",
+          "count": 4
+        },
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-blue-hands",
+      "output": "blue-hands",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 6
+        },
+        {
+          "id": "stone",
+          "count": 4
+        },
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-blue-weapon",
+      "output": "blue-weapon",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 6
+        },
+        {
+          "id": "stone",
+          "count": 4
+        },
+        {
+          "id": "hide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "craft-purple-head",
+      "output": "purple-head",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 10
+        },
+        {
+          "id": "stone",
+          "count": 8
+        },
+        {
+          "id": "hide",
+          "count": 5
+        },
+        {
+          "id": "ancient-core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "craft-purple-body",
+      "output": "purple-body",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 10
+        },
+        {
+          "id": "stone",
+          "count": 8
+        },
+        {
+          "id": "hide",
+          "count": 5
+        },
+        {
+          "id": "ancient-core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "craft-purple-feet",
+      "output": "purple-feet",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 10
+        },
+        {
+          "id": "stone",
+          "count": 8
+        },
+        {
+          "id": "hide",
+          "count": 5
+        },
+        {
+          "id": "ancient-core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "craft-purple-hands",
+      "output": "purple-hands",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 10
+        },
+        {
+          "id": "stone",
+          "count": 8
+        },
+        {
+          "id": "hide",
+          "count": 5
+        },
+        {
+          "id": "ancient-core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "craft-purple-weapon",
+      "output": "purple-weapon",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 10
+        },
+        {
+          "id": "stone",
+          "count": 8
+        },
+        {
+          "id": "hide",
+          "count": 5
+        },
+        {
+          "id": "ancient-core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "craft-gold-head",
+      "output": "gold-head",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 16
+        },
+        {
+          "id": "stone",
+          "count": 12
+        },
+        {
+          "id": "hide",
+          "count": 8
+        },
+        {
+          "id": "ancient-core",
+          "count": 5
+        },
+        {
+          "id": "verdant-essence",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "craft-gold-body",
+      "output": "gold-body",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 16
+        },
+        {
+          "id": "stone",
+          "count": 12
+        },
+        {
+          "id": "hide",
+          "count": 8
+        },
+        {
+          "id": "ancient-core",
+          "count": 5
+        },
+        {
+          "id": "frost-fur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "craft-gold-feet",
+      "output": "gold-feet",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 16
+        },
+        {
+          "id": "stone",
+          "count": 12
+        },
+        {
+          "id": "hide",
+          "count": 8
+        },
+        {
+          "id": "ancient-core",
+          "count": 5
+        },
+        {
+          "id": "ember-heart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "craft-gold-hands",
+      "output": "gold-hands",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 16
+        },
+        {
+          "id": "stone",
+          "count": 12
+        },
+        {
+          "id": "hide",
+          "count": 8
+        },
+        {
+          "id": "ancient-core",
+          "count": 5
+        },
+        {
+          "id": "amber-shell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "craft-gold-weapon",
+      "output": "gold-weapon",
+      "materials": [
+        {
+          "id": "wood",
+          "count": 16
+        },
+        {
+          "id": "stone",
+          "count": 12
+        },
+        {
+          "id": "hide",
+          "count": 8
+        },
+        {
+          "id": "ancient-core",
+          "count": 5
+        },
+        {
+          "id": "ember-heart",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "monsters": [
+    {
+      "id": "stalker",
+      "health": 72,
+      "damage": 18,
+      "radius": 18,
+      "speed": 86,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.6,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ]
+    },
+    {
+      "id": "runner",
+      "health": 48,
+      "damage": 12,
+      "radius": 15,
+      "speed": 135,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.4,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "role": "fast"
+    },
+    {
+      "id": "siege",
+      "health": 160,
+      "damage": 32,
+      "radius": 20,
+      "speed": 55,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 1.2,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "role": "siege"
+    },
+    {
+      "id": "brute",
+      "health": 240,
+      "damage": 38,
+      "radius": 20,
+      "speed": 60,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 1.1,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "role": "siege",
+      "elite": true,
+      "rare": {
+        "material": "ancient-core",
+        "chance": 0.35,
+        "guarantee": 3
+      }
+    },
+    {
+      "id": "spring-stalker",
+      "health": 82.8,
+      "damage": 20.7,
+      "radius": 18,
+      "speed": 86,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.6,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "rare": {
+        "material": "verdant-essence",
+        "chance": 0.2,
+        "guarantee": 5
+      }
+    },
+    {
+      "id": "thorn-king",
+      "health": 420,
+      "damage": 30,
+      "radius": 22,
+      "speed": 60,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.6,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "elite": true,
+      "rare": {
+        "material": "verdant-essence",
+        "chance": 1,
+        "guarantee": 1
+      }
+    },
+    {
+      "id": "summer-runner",
+      "health": 55.199999999999996,
+      "damage": 13.799999999999999,
+      "radius": 15,
+      "speed": 135,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.4,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "role": "fast",
+      "rare": {
+        "material": "ember-heart",
+        "chance": 0.2,
+        "guarantee": 5
+      }
+    },
+    {
+      "id": "ember-beast",
+      "health": 490,
+      "damage": 35,
+      "radius": 22,
+      "speed": 60,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.4,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "role": "fast",
+      "elite": true,
+      "rare": {
+        "material": "ember-heart",
+        "chance": 1,
+        "guarantee": 1
+      }
+    },
+    {
+      "id": "autumn-siege",
+      "health": 184.0,
+      "damage": 36.8,
+      "radius": 20,
+      "speed": 55,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 1.2,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "role": "siege",
+      "rare": {
+        "material": "amber-shell",
+        "chance": 0.2,
+        "guarantee": 5
+      }
+    },
+    {
+      "id": "amber-guardian",
+      "health": 560,
+      "damage": 40,
+      "radius": 22,
+      "speed": 60,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 1.2,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "role": "siege",
+      "elite": true,
+      "rare": {
+        "material": "amber-shell",
+        "chance": 1,
+        "guarantee": 1
+      }
+    },
+    {
+      "id": "winter-stalker",
+      "health": 82.8,
+      "damage": 20.7,
+      "radius": 18,
+      "speed": 86,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.6,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "rare": {
+        "material": "frost-fur",
+        "chance": 0.2,
+        "guarantee": 5
+      }
+    },
+    {
+      "id": "frost-giant",
+      "health": 630,
+      "damage": 45,
+      "radius": 22,
+      "speed": 60,
+      "aggroRange": 420,
+      "range": 40,
+      "windup": 0.6,
+      "recovery": 1.0,
+      "drops": [
+        "hide"
+      ],
+      "elite": true,
+      "rare": {
+        "material": "frost-fur",
+        "chance": 1,
+        "guarantee": 1
+      }
+    }
+  ],
+  "growth": {
+    "combatThresholds": [
+      50,
+      200,
+      450,
+      800,
+      1250,
+      1800,
+      2450,
+      3200,
+      4050,
+      5000,
+      6050,
+      7200,
+      8450,
+      9800,
+      11250,
+      12800,
+      14450,
+      16200,
+      18050
+    ],
+    "gatheringThresholds": [
+      30,
+      120,
+      270,
+      480,
+      750,
+      1080,
+      1470,
+      1920,
+      2430
+    ],
+    "skillLevels": [
+      3,
+      6
+    ],
+    "killXp": 25,
+    "gatherXp": 5,
+    "healthPerLevel": 5,
+    "attackPerLevel": 2,
+    "gatherSpeedPerLevel": 0.05,
+    "wardenLoggingTime": 0.8,
+    "wardenFreeRepairEvery": 3,
+    "hunterCounterBonus": 0.5,
+    "hunterCounterSeconds": 5,
+    "hunterBlinkBonus": 0.25,
+    "hunterBlinkSeconds": 6,
+    "toolLevel": 3,
+    "toolCost": [
+      {
+        "id": "wood",
+        "count": 10
+      },
+      {
+        "id": "stone",
+        "count": 5
+      }
+    ]
+  },
+  "survival": {
+    "capacity": 24,
+    "interactionRange": 110,
+    "buildRange": 180,
+    "hungerMax": 100,
+    "hungerDrain": 0.08,
+    "foodRestore": 30,
+    "starvationDamage": 4,
+    "respawnSeconds": 8,
+    "respawnProtection": 2,
+    "respawnHunger": 25,
+    "relocationSeconds": 8,
+    "relocationCooldown": 60,
+    "safeEnemyRange": 200,
+    "relocationCost": [
+      {
+        "id": "wood",
+        "count": 5
+      },
+      {
+        "id": "stone",
+        "count": 3
+      }
+    ],
+    "repairSeconds": 0.8,
+    "repairHealth": 30,
+    "repairCost": [
+      {
+        "id": "wood",
+        "count": 1
+      }
+    ],
+    "raidBudget": 6,
+    "raidGrowth": 2,
+    "spawnInterval": 6,
+    "spawnRadius": 7,
+    "maxEnemies": 40,
+    "frenzy": 1.3,
+    "autosaveSeconds": 15,
+    "resources": [
+      {
+        "id": "wood",
+        "item": "wood",
+        "count": 4,
+        "seconds": 1.2,
+        "tool": "axe",
+        "blocking": true,
+        "regrow": 600,
+        "yieldBySeason": [
+          1,
+          1,
+          1.25,
+          1
+        ],
+        "regrowBySeason": [
+          1,
+          1.2,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "stone",
+        "item": "stone",
+        "count": 4,
+        "seconds": 1.8,
+        "tool": "pick",
+        "blocking": true,
+        "regrow": 0,
+        "yieldBySeason": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "regrowBySeason": [
+          1,
+          1.2,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "food",
+        "item": "food",
+        "count": 2,
+        "seconds": 0.7,
+        "tool": null,
+        "blocking": false,
+        "regrow": 300,
+        "yieldBySeason": [
+          1,
+          1,
+          1.5,
+          0.5
+        ],
+        "regrowBySeason": [
+          1,
+          1.2,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "herb",
+        "item": "herb",
+        "count": 2,
+        "seconds": 0.7,
+        "tool": null,
+        "blocking": false,
+        "regrow": 300,
+        "yieldBySeason": [
+          1.5,
+          1,
+          1,
+          0.5
+        ],
+        "regrowBySeason": [
+          1,
+          1.2,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "hardwood",
+        "item": "wood",
+        "count": 8,
+        "seconds": 3,
+        "tool": "improved-axe",
+        "blocking": true,
+        "regrow": 900,
+        "yieldBySeason": [
+          1,
+          1,
+          1.25,
+          1
+        ],
+        "regrowBySeason": [
+          1,
+          1.2,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "rich-stone",
+        "item": "stone",
+        "count": 8,
+        "seconds": 4,
+        "tool": "improved-pick",
+        "blocking": true,
+        "regrow": 0,
+        "yieldBySeason": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "regrowBySeason": [
+          1,
+          1.2,
+          1,
+          2
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "tower",
+        "name": "营地塔",
+        "health": 1000,
+        "costs": []
+      },
+      {
+        "id": "wall",
+        "name": "木墙",
+        "health": 120,
+        "costs": [
+          {
+            "id": "wood",
+            "count": 3
+          }
+        ],
+        "upgradeTo": "stone-wall"
+      },
+      {
+        "id": "gate",
+        "name": "木门",
+        "health": 120,
+        "costs": [
+          {
+            "id": "wood",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "id": "stone-wall",
+        "name": "石墙",
+        "health": 300,
+        "costs": [
+          {
+            "id": "stone",
+            "count": 6
+          }
+        ],
+        "upgradeTo": "reinforced-wall",
+        "repairCost": [
+          {
+            "id": "stone",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "reinforced-wall",
+        "name": "强化墙",
+        "health": 650,
+        "costs": [
+          {
+            "id": "stone",
+            "count": 8
+          },
+          {
+            "id": "wood",
+            "count": 6
+          },
+          {
+            "id": "ancient-core",
+            "count": 1
+          }
+        ],
+        "repairCost": [
+          {
+            "id": "stone",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "campfire",
+        "name": "篝火",
+        "health": 100,
+        "costs": [
+          {
+            "id": "wood",
+            "count": 8
+          },
+          {
+            "id": "stone",
+            "count": 4
+          }
+        ],
+        "fuel": "wood"
+      },
+      {
+        "id": "cooler",
+        "name": "降温棚",
+        "health": 100,
+        "costs": [
+          {
+            "id": "wood",
+            "count": 6
+          },
+          {
+            "id": "stone",
+            "count": 6
+          },
+          {
+            "id": "herb",
+            "count": 2
+          }
+        ],
+        "fuel": "herb"
+      }
+    ],
+    "aggroSeconds": 5,
+    "aggroRest": 4
+  },
+  "skills": [
+    {
+      "id": "sweep",
+      "name": "横扫",
+      "cooldown": 7,
+      "cast": 0.35,
+      "range": 130,
+      "arc": 240,
+      "damage": 1.8,
+      "knockback": 0,
+      "heal": 0,
+      "duration": 0,
+      "cost": [],
+      "trainingCost": [
+        {
+          "id": "hide",
+          "count": 4
+        },
+        {
+          "id": "stone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "shockwave",
+      "name": "冲击波",
+      "cooldown": 11,
+      "cast": 0.35,
+      "range": 240,
+      "arc": 65,
+      "damage": 1.3,
+      "knockback": 96,
+      "heal": 0,
+      "duration": 0,
+      "cost": [],
+      "trainingCost": [
+        {
+          "id": "hide",
+          "count": 4
+        },
+        {
+          "id": "stone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "warcry",
+      "name": "战吼",
+      "cooldown": 18,
+      "cast": 0.35,
+      "range": 240,
+      "arc": 360,
+      "damage": 0,
+      "knockback": 0,
+      "heal": 0,
+      "duration": 4,
+      "cost": [],
+      "trainingCost": [
+        {
+          "id": "hide",
+          "count": 4
+        },
+        {
+          "id": "stone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "first-aid",
+      "name": "急救",
+      "cooldown": 22,
+      "cast": 0.35,
+      "range": 1,
+      "arc": 360,
+      "damage": 0,
+      "knockback": 0,
+      "heal": 40,
+      "duration": 0,
+      "cost": [
+        {
+          "id": "herb",
+          "count": 2
+        }
+      ],
+      "trainingCost": [
+        {
+          "id": "hide",
+          "count": 4
+        },
+        {
+          "id": "stone",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "loot": {
+    "equipmentChance": 0.15,
+    "blueChance": 0.25
+  },
+  "environment": {
+    "comfort": 20,
+    "safeLow": 5,
+    "safeHigh": 35,
+    "changePerSecond": 1,
+    "damage": 4,
+    "damageInterval": 2,
+    "facilityRange": 160,
+    "fuelSeconds": 120,
+    "maxFuel": 600,
+    "facilityProtection": 40,
+    "seasons": [
+      {
+        "name": "春",
+        "temperature": 20,
+        "nightBonus": 0,
+        "monster": "spring-stalker",
+        "boss": "thorn-king",
+        "material": "verdant-essence"
+      },
+      {
+        "name": "夏",
+        "temperature": 42,
+        "nightBonus": 0,
+        "monster": "summer-runner",
+        "boss": "ember-beast",
+        "material": "ember-heart"
+      },
+      {
+        "name": "秋",
+        "temperature": 16,
+        "nightBonus": 0,
+        "monster": "autumn-siege",
+        "boss": "amber-guardian",
+        "material": "amber-shell"
+      },
+      {
+        "name": "冬",
+        "temperature": -12,
+        "nightBonus": 60,
+        "monster": "winter-stalker",
+        "boss": "frost-giant",
+        "material": "frost-fur"
+      }
+    ]
+  }
+}

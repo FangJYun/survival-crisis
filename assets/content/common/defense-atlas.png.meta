@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "8e58ddeb-6d81-4b44-91fd-1925ea64a7cb",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "8e58ddeb-6d81-4b44-91fd-1925ea64a7cb@6c48a",
+      "displayName": "defense-atlas",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "8e58ddeb-6d81-4b44-91fd-1925ea64a7cb",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "8e58ddeb-6d81-4b44-91fd-1925ea64a7cb@f9941",
+      "displayName": "defense-atlas",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -16.5,
+        "trimX": 21,
+        "trimY": 45,
+        "width": 1238,
+        "height": 1223,
+        "rawWidth": 1280,
+        "rawHeight": 1280,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -619,
+            -611.5,
+            0,
+            619,
+            -611.5,
+            0,
+            -619,
+            611.5,
+            0,
+            619,
+            611.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            21,
+            1235,
+            1259,
+            1235,
+            21,
+            12,
+            1259,
+            12
+          ],
+          "nuv": [
+            0.01640625,
+            0.009375,
+            0.98359375,
+            0.009375,
+            0.01640625,
+            0.96484375,
+            0.98359375,
+            0.96484375
+          ],
+          "minPos": [
+            -619,
+            -611.5,
+            0
+          ],
+          "maxPos": [
+            619,
+            611.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8e58ddeb-6d81-4b44-91fd-1925ea64a7cb@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "8e58ddeb-6d81-4b44-91fd-1925ea64a7cb@6c48a"
+  }
+}

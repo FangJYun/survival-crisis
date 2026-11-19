@@ -1,0 +1,19 @@
+{
+  "group": "monsters",
+  "version": 1,
+  "frame": 14,
+  "frames": {
+    "stalker": 16,
+    "runner": 17,
+    "siege": 18,
+    "brute": 19,
+    "spring-stalker": 20,
+    "summer-runner": 21,
+    "autumn-siege": 22,
+    "winter-stalker": 23,
+    "thorn-king": 24,
+    "ember-beast": 25,
+    "amber-guardian": 26,
+    "frost-giant": 27
+  }
+}

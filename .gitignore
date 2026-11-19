@@ -1,0 +1,45 @@
+
+#///////////////////////////
+# Cocos Creator Project
+#///////////////////////////
+
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/native/engine/android/**/*/assets
+
+#//////////////////////////
+# NPM
+#//////////////////////////
+node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/
+
+.test-output/
+.DS_Store
+
+# Local caches and agent setup
+/.cache/
+/.agents/
+
+# Local environment and signing credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+/tools/package-private-keys/
+*.key
+*.pem
+*.p12
+*.pfx
+*.log

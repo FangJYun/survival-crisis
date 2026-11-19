@@ -1,0 +1,16 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "bc3cd8d8-9f1b-44c2-a44b-9d0494810c8f",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleConfigID": "default",
+    "bundleName": "game-startup",
+    "priority": 5,
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

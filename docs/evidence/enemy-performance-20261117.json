@@ -1,0 +1,8 @@
+[
+  {
+    "level": "info",
+    "message": "PERFORMANCE_PROBE {\"seconds\":60.00860000002539,\"frames\":3599,\"fps\":59.9747369543445,\"frameP95\":18.399999976158142,\"frameP99\":19.399999976158142,\"workP95\":3.200000047683716,\"minEnemies\":40,\"maxEnemies\":40,\"sprites\":63,\"assets\":35,\"heapPeak\":139890055,\"wallSeconds\":60.03589999997616,\"simulationSeconds\":59.96666666671439}",
+    "timestamp": "2026-11-17T14:58:49.004Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  }
+]
